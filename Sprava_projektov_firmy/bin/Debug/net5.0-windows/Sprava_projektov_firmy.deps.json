@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Sprava_projektov_firmy/1.0.0": {
+        "runtime": {
+          "Sprava_projektov_firmy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sprava_projektov_firmy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
