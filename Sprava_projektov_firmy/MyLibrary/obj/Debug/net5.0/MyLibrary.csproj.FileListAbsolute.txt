@@ -10,3 +10,15 @@ C:\Users\Josef\source\repos\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\My
 C:\Users\Josef\source\repos\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.dll
 C:\Users\Josef\source\repos\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\ref\MyLibrary.dll
 C:\Users\Josef\source\repos\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.pdb
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\bin\Debug\net5.0\MyLibrary.deps.json
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\bin\Debug\net5.0\MyLibrary.dll
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\bin\Debug\net5.0\ref\MyLibrary.dll
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\bin\Debug\net5.0\MyLibrary.pdb
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.csproj.AssemblyReference.cache
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfoInputs.cache
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.AssemblyInfo.cs
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.dll
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\ref\MyLibrary.dll
+C:\Users\Josef\Desktop\Sprava_projektov_firmy\Sprava_projektov_firmy\MyLibrary\obj\Debug\net5.0\MyLibrary.pdb

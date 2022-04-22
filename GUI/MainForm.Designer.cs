@@ -24,79 +24,79 @@ namespace GUI {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.lb3 = new System.Windows.Forms.Label();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn1 = new System.Windows.Forms.Button();
+            this.MainTitleLabel = new System.Windows.Forms.Label();
+            this.ListOfProjectsButton = new System.Windows.Forms.Button();
+            this.NewProjectButton = new System.Windows.Forms.Button();
+            this.ProjectEditingButton = new System.Windows.Forms.Button();
+            this.DeleteProjectButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // lb3
+            // MainTitleLabel
             // 
-            this.lb3.AutoSize = true;
-            this.lb3.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lb3.Location = new System.Drawing.Point(139, 9);
-            this.lb3.Name = "lb3";
-            this.lb3.Size = new System.Drawing.Size(464, 59);
-            this.lb3.TabIndex = 0;
-            this.lb3.Text = "Správa projektů firmy";
+            this.MainTitleLabel.AutoSize = true;
+            this.MainTitleLabel.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.MainTitleLabel.Location = new System.Drawing.Point(139, 9);
+            this.MainTitleLabel.Name = "MainTitleLabel";
+            this.MainTitleLabel.Size = new System.Drawing.Size(464, 59);
+            this.MainTitleLabel.TabIndex = 0;
+            this.MainTitleLabel.Text = "Správa projektů firmy";
             // 
-            // btn2
+            // ListOfProjectsButton
             // 
-            this.btn2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn2.Location = new System.Drawing.Point(51, 238);
-            this.btn2.Name = "btn2";
-            this.btn2.Size = new System.Drawing.Size(147, 85);
-            this.btn2.TabIndex = 1;
-            this.btn2.Text = "Seznam projektů";
-            this.btn2.UseVisualStyleBackColor = false;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.ListOfProjectsButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ListOfProjectsButton.Location = new System.Drawing.Point(51, 238);
+            this.ListOfProjectsButton.Name = "ListOfProjectsButton";
+            this.ListOfProjectsButton.Size = new System.Drawing.Size(147, 85);
+            this.ListOfProjectsButton.TabIndex = 1;
+            this.ListOfProjectsButton.Text = "Seznam projektů";
+            this.ListOfProjectsButton.UseVisualStyleBackColor = false;
+            this.ListOfProjectsButton.Click += new System.EventHandler(this.ListOfProjectsButton_Click);
             // 
-            // btn3
+            // NewProjectButton
             // 
-            this.btn3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn3.Location = new System.Drawing.Point(236, 238);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(147, 85);
-            this.btn3.TabIndex = 2;
-            this.btn3.Text = "Nový projekt";
-            this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.NewProjectButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.NewProjectButton.Location = new System.Drawing.Point(236, 238);
+            this.NewProjectButton.Name = "NewProjectButton";
+            this.NewProjectButton.Size = new System.Drawing.Size(147, 85);
+            this.NewProjectButton.TabIndex = 2;
+            this.NewProjectButton.Text = "Nový projekt";
+            this.NewProjectButton.UseVisualStyleBackColor = false;
+            this.NewProjectButton.Click += new System.EventHandler(this.NewProjectButton_Click);
             // 
-            // btn4
+            // ProjectEditingButton
             // 
-            this.btn4.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn4.Location = new System.Drawing.Point(424, 238);
-            this.btn4.Name = "btn4";
-            this.btn4.Size = new System.Drawing.Size(147, 85);
-            this.btn4.TabIndex = 3;
-            this.btn4.Text = "Editace projektu";
-            this.btn4.UseVisualStyleBackColor = false;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.ProjectEditingButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ProjectEditingButton.Location = new System.Drawing.Point(424, 238);
+            this.ProjectEditingButton.Name = "ProjectEditingButton";
+            this.ProjectEditingButton.Size = new System.Drawing.Size(147, 85);
+            this.ProjectEditingButton.TabIndex = 3;
+            this.ProjectEditingButton.Text = "Editace projektu";
+            this.ProjectEditingButton.UseVisualStyleBackColor = false;
+            this.ProjectEditingButton.Click += new System.EventHandler(this.EditProjectButton_Click);
             // 
-            // btn1
+            // DeleteProjectButton
             // 
-            this.btn1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn1.Location = new System.Drawing.Point(610, 238);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(147, 85);
-            this.btn1.TabIndex = 4;
-            this.btn1.Text = "Smazání projektu";
-            this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.DeleteProjectButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.DeleteProjectButton.Location = new System.Drawing.Point(610, 238);
+            this.DeleteProjectButton.Name = "DeleteProjectButton";
+            this.DeleteProjectButton.Size = new System.Drawing.Size(147, 85);
+            this.DeleteProjectButton.TabIndex = 4;
+            this.DeleteProjectButton.Text = "Smazání projektu";
+            this.DeleteProjectButton.UseVisualStyleBackColor = false;
+            this.DeleteProjectButton.Click += new System.EventHandler(this.DeleteProjectButton_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn1);
-            this.Controls.Add(this.btn4);
-            this.Controls.Add(this.btn3);
-            this.Controls.Add(this.btn2);
-            this.Controls.Add(this.lb3);
+            this.Controls.Add(this.DeleteProjectButton);
+            this.Controls.Add(this.ProjectEditingButton);
+            this.Controls.Add(this.NewProjectButton);
+            this.Controls.Add(this.ListOfProjectsButton);
+            this.Controls.Add(this.MainTitleLabel);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "Správa projektů firmy";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,10 +104,10 @@ namespace GUI {
 
         #endregion
 
-        private System.Windows.Forms.Label lb3;
-        private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Label MainTitleLabel;
+        private System.Windows.Forms.Button ListOfProjectsButton;
+        private System.Windows.Forms.Button NewProjectButton;
+        private System.Windows.Forms.Button ProjectEditingButton;
+        private System.Windows.Forms.Button DeleteProjectButton;
     }
 }

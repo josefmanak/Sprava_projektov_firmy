@@ -5,10 +5,10 @@ using System.IO;
 namespace MyLibrary {
     public class Methods {
             public string Path() {
-                XmlDocument doc = new XmlDocument();
-                doc.Load(@"appconfig.xml");
-                XmlElement de = doc.DocumentElement;
-                string path = de.SelectSingleNode("path").InnerText;
+                XmlDocument xdoc = new XmlDocument();
+                xdoc.Load(@"appconfig.xml");
+                XmlElement xe = xdoc.DocumentElement;
+                string path = xe.SelectSingleNode("path").InnerText;
                 return path;      
             }
             public void Delete(ProjectCollection c, int k) {

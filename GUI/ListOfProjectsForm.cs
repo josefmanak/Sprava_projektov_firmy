@@ -5,14 +5,14 @@ using MyLibrary;
 using System.IO;
 
 namespace GUI {
-    public partial class Form2 : Form {
+    public partial class ListOfProjectsForm : Form {
         Methods m = new Methods();
         private Panel buttonPanel = new Panel();
         ProjectCollection c = new ProjectCollection();
-        public Form2() {
+        public ListOfProjectsForm() {
             InitializeComponent();
         }
-        private void Form2_Load(object sender, EventArgs e) {
+        private void ListOfProjectsForm_Load(object sender, EventArgs e) {
             try {
                 c = m.Read();
                 this.Controls.Add(this.buttonPanel);
@@ -25,22 +25,22 @@ namespace GUI {
                 }
             }
             catch (IOException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
             catch (ArgumentException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
             catch (XmlException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
         }
-        private void btn1_Click(object sender, EventArgs e) { 
+        private void CloseButton_Click(object sender, EventArgs e) { 
             this.Close();
         }
     }

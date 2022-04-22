@@ -6,21 +6,21 @@ namespace GUI {
         public MainForm() {
             InitializeComponent();
         }
-        private void btn1_Click(object sender, EventArgs e) {
-            Form3 fm3 = new Form3();
-            fm3.ShowDialog();
+        private void DeleteProjectButton_Click(object sender, EventArgs e) {
+            DeleteProjectForm dpf = new DeleteProjectForm();
+            dpf.ShowDialog();
         }
-        private void btn2_Click(object sender, EventArgs e) {
-            Form2 fm2 = new Form2();
-            fm2.ShowDialog();
+        private void ListOfProjectsButton_Click(object sender, EventArgs e) {
+            ListOfProjectsForm lopf = new ListOfProjectsForm();
+            lopf.ShowDialog();
         }
-        private void btn3_Click(object sender, EventArgs e) {
-            Form4 fm4 = new Form4();
-            fm4.ShowDialog();
+        private void NewProjectButton_Click(object sender, EventArgs e) {
+            NewProjectForm npf = new NewProjectForm();
+            npf.ShowDialog();
         }
-        private void btn4_Click(object sender, EventArgs e) {
-            Form5 fm5 = new Form5();
-            fm5.ShowDialog();
+        private void EditProjectButton_Click(object sender, EventArgs e) {
+            EditProjectForm epf = new EditProjectForm();
+            epf.ShowDialog();
         }
     }
 }

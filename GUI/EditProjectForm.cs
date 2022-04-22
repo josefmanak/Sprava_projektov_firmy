@@ -5,14 +5,14 @@ using System.IO;
 using System.Xml;
 
 namespace GUI {
-    public partial class Form5 : Form {
+    public partial class EditProjectForm : Form {
         Methods m = new Methods();
         ProjectCollection c = new ProjectCollection();
         private Panel buttonPanel = new Panel();
-        public Form5() {
+        public EditProjectForm() {
             InitializeComponent();
         }
-        private void Form5_Load(object sender, EventArgs e) {
+        private void EditProjectForm_Load(object sender, EventArgs e) {
             try {
                 c = m.Read();
                 this.Controls.Add(this.buttonPanel);
@@ -25,22 +25,22 @@ namespace GUI {
                 }
             }
             catch (ArgumentException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
             catch (IOException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
             catch (XmlException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
         }
-        private void btn5_Click(object sender, EventArgs e) {
+        private void CloseButton_Click(object sender, EventArgs e) {
             this.Close();
         }
         private void ProjectDataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e) {
@@ -54,18 +54,18 @@ namespace GUI {
                 m.Save(c);
             }
             catch (ArgumentException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
             catch (IOException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
             catch (XmlException ex) {
-                Form6 frm6 = new Form6(ex.Message);
-                frm6.ShowDialog();
+                ThrowExceptionForm tef = new ThrowExceptionForm(ex.Message);
+                tef.ShowDialog();
                 this.Close();
             }
         }
